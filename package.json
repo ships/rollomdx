@@ -1,19 +1,20 @@
 {
-  "private": true,
-  "version": "1.0.0",
-  "description": "Deck created with mdx-deck",
-  "scripts": {
-    "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx",
-    "pdf": "mdx-deck pdf deck.mdx",
-    "image": "mdx-deck screenshot deck.mdx",
-    "help": "mdx-deck"
-  },
-  "keywords": [],
-  "author": "Brent Jackson",
+  "name": "rollomdx",
+  "version": "0.0.2",
+  "description": "powerful primitives for mdx-deck building",
+  "main": "index.js",
+  "author": "early evening",
   "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "npm": "^6.7.0",
+    "qrcode.react": "^0.9.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-mathjax": "^1.0.1",
+    "styled-components": "^4.1.3"
+  },
   "devDependencies": {
     "mdx-deck": "^1.6.7"
-  },
-  "name": "rollomdx"
+  }
 }
